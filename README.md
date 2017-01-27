@@ -31,13 +31,13 @@ GENERAL USAGE NOTES
 
 -This submission also includes the following classes:
 
-	-TakenBlocks to represent blocks of memory that are taken.
+	-TakenBlocks.java to represent blocks of memory that are taken.
 	
-	-Holes to represent blocks of memory that are not taken.
+	-Holes.java to represent blocks of memory that are not taken.
 	
-	-MemoryAllocations to represent the incoming memory allocations.
+	-MemoryAllocations.java to represent the incoming memory allocations.
 	
-	-StartPointComparator to help sort lists of Holes objects by 
+	-StartPointComparator.java to help sort lists of Holes objects by 
 		their start point.
 	
 -Input file required structure:
