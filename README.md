@@ -17,6 +17,7 @@ allocation using the first-fit, best-fit, and worst-fit algorithms.
 any memory operation cannot be satisfied. If all memory operations complete successfully,
 the program should output the word "Success." If a memory operation cannot be satisfied
 the program should output two lines:
+
 	1. The word "Failed", the reference number for the request that failed, and the number
 		of bytes for the request that failed.
 	2. The amount of external fragmentation (in bytes) when the request failed.
@@ -29,6 +30,7 @@ GENERAL USAGE NOTES
 -The Driver class reads from standard input.
 
 -This submission also includes the following classes:
+
 	-TakenBlocks to represent blocks of memory that are taken.
 	
 	-Holes to represent blocks of memory that are not taken.
@@ -39,6 +41,7 @@ GENERAL USAGE NOTES
 		their start point.
 	
 -Input file required structure:
+
 	-.txt file containing the following information
 
 	-Each line should contain 3 individual integer numbers in the form:
@@ -60,6 +63,7 @@ GENERAL USAGE NOTES
 -This submission compiles all classes with use of a makeFile.
 
 -The Driver class reads from standard input.
+
 	-To run Driver at the command line:
 		1. $ make
 		2. $ java Driver < input.txt
